@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: PRLDp8EG7psLZGJjo8VmoWt1EU3lM
+ FU0Q0J64BfeJ4g=
+SHA-256-Digest-Manifest: 40yHZB7hP9urfePGe93Uw1Cqru6O8EH9S1sdtwUons0=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: editors.xml
+SHA-256-Digest: HzJJCmStXRGkRm2pg20kKD7i3oAZkjAvm0v/i8n9uRg=
+
+Name: org/mule/tooling/ui/contribution/SignatureActivator.class
+SHA-256-Digest: yNbX4ew+46Ldd0CI8hitBrSTKbQeMriB8oJ5GAc9TaQ=
+
+Name: plugin.xml
+SHA-256-Digest: ZJUPumpgXEKLN53kH7zFhC7v6lzsqbvWLzcUATcbi+I=
+
+Name: mule-module-security-signature-1.8.4.zip
+SHA-256-Digest: ZhU92xXpFbgh5WBPread0M5Iu/u2H7K7MKsqLhXx2GE=
+
+Name: icons/large/signature-connector-48x32.png
+SHA-256-Digest: V3yjjIHhiWVrLyaEI2dvuq6TBgQ6ghRnbUfMqA5/DAU=
+
+Name: mule-module-security-signature-1.8.4.jar
+SHA-256-Digest: MeozYaKgG4YlQDKDB6172rjYQG9A3lrEi6eZZxtruhE=
+
+Name: icons/small/signature-connector-24x16.png
+SHA-256-Digest: hpVKRRZSOUJ6PWVIMQ5g2kh23aaAlvPfOP3CiofrSZ0=
+

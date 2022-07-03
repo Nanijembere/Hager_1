@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: Secure Property Placeholder
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041855
+Bundle-Activator: org.mule.tooling.ui.contribution.SecurePropertyPlace
+ holderActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.secure-property-
+ placeholder.3.9.0;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: editors.xml
+SHA-256-Digest: otraihns6Mdt4P+oBfBzjLDJ1Z9WBt5/af+Lb/+XnSY=
+
+Name: mule-module-security-property-placeholder-1.8.4.jar
+SHA-256-Digest: kRdXjvGw03aSV31h/OtKAK03+MIoqasC6oDrb4qWYms=
+
+Name: icons/small/secure-property-placeholder-connector-24x16.png
+SHA-256-Digest: 1HU+AifKbRKLqbKtQFRqgNX1nyRT/AzGshTTexAb63o=
+
+Name: icons/large/secure-property-placeholder-connector-48x32.png
+SHA-256-Digest: TbotKG0OzvCPjVR7LhoId6PlxYdoTtyiXxZ+ARHRclE=
+
+Name: plugin.xml
+SHA-256-Digest: SZAuAKmLwlqKPq/CMdBwwK+cQQT+xj41d1H9OjjTkbk=
+
+Name: org/mule/tooling/ui/contribution/SecurePropertyPlaceholderActiva
+ tor.class
+SHA-256-Digest: d7i6obEIAN6VKGjYezJvFuNnXtj2+HY5Lwl0jIih4Yo=
+
+Name: mule-module-security-property-placeholder-1.8.4.zip
+SHA-256-Digest: Fc4gNElhD1rlPDzSOPJ2gLgIRYEahSDpZu5m/9pAZ1w=
+

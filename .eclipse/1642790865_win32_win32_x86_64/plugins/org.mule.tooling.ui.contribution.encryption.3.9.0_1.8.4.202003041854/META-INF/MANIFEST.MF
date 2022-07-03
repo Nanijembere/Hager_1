@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: Encryption
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041854
+Bundle-Activator: org.mule.tooling.ui.contribution.EncryptionActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.encryption.3.9.0
+ ;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: org/mule/tooling/ui/contribution/EncryptionActivator.class
+SHA-256-Digest: mZ3k0YOzD5NnuL71GQmIP/ztFOWWuykVYcjf3+SQErg=
+
+Name: icons/large/encryption-connector-48x32.png
+SHA-256-Digest: rJSpr/EvGSHGOZT0TsCjinEYIS52ZqqXh5RKM3RfyvY=
+
+Name: editors.xml
+SHA-256-Digest: K4AOa8kgDbH5tL1fN93D1ohSklg8NjEEaZ9rvNWaZRA=
+
+Name: mule-module-security-encryption-1.8.4.jar
+SHA-256-Digest: //gxXnI7b+vSwrqydt7qwLbg+YZJJNEmkPl6iPmKkyc=
+
+Name: mule-module-security-encryption-1.8.4.zip
+SHA-256-Digest: dWDtBxN70+YqMHJ4tcznsz6z3nwRv0hAT3d8pVkVniM=
+
+Name: plugin.xml
+SHA-256-Digest: FR6+7sUnJbdineWKNWkL/hASh8I7QrB9wpTr72F7dmc=
+
+Name: icons/small/encryption-connector-24x16.png
+SHA-256-Digest: 9sRKIaDQF+Xb2I12ou3AzZis5kufU4pg88MS1KZI24w=
+

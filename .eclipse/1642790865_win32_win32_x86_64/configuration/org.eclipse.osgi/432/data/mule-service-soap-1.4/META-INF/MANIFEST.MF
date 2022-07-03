@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Build-Date: 
+Built-By: ubuntu
+Specification-Title: Mule SOAP Service
+Implementation-Vendor-Id: org.mule.services
+Description: Mule Runtime and Integration Platform
+Git-commit-id: e73193df4a4ea6a8886924784c78542fc9c7eaa1
+Recommended-Jdks: [1.8.0_181,9),[11,12)
+Product-Url: https://developer.mulesoft.com/
+Build-Revision: e73193df
+Dev-List-Email: mule-esb@mulesoft.com
+Git-commit-time: 2021-12-01T16:49:28+0000
+Git-tags: 
+Implementation-Title: Mule SOAP Service
+Git-remote-origin-url: https://github.com/mulesoft/mule-soap-service.g
+ it
+Implementation-Version: 1.4.1
+Specification-Vendor: MuleSoft, Inc.
+Supported-Jdks: [1.8.0,12)
+Implementation-Vendor: MuleSoft, Inc.
+Git-branch: 1.4.1
+Git-commit-id-describe: e73193d
+License: CPAL v1.0 http://www.mulesoft.com/CPAL/
+More-Info: For more information go to https://developer.mulesoft.com/
+Vendor-Url: http://www.mulesoft.com
+Support: Get commercial support: http://www.mulesoft.com/support
+Created-By: Apache Maven 3.6.2
+Build-Jdk: 1.8.0_275
+Specification-Version: 1.4
+Implementation-URL: https://developer.mulesoft.com/mule-core-services-
+ parent/mule-service-soap/
+

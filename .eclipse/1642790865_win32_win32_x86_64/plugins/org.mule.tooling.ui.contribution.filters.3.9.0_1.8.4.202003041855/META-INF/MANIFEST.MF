@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: Filters
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041855
+Bundle-Activator: org.mule.tooling.ui.contribution.FiltersActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.filters.3.9.0;si
+ ngleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: icons/small/filters-connector-24x16.png
+SHA-256-Digest: DgCR7hXBEa3oKiHkzxvEI6KGOmDyziSCQGmjEZiNZ8I=
+
+Name: icons/large/filters-connector-48x32.png
+SHA-256-Digest: /nJZ2SiQr8nEZE3stbO/kcuwsIxMTXb4xcyWQmZd5BY=
+
+Name: editors.xml
+SHA-256-Digest: K7MINwexRsWGu96U1B8o2clCYZvtLfTB/acqrMoKmNw=
+
+Name: mule-module-security-filters-1.8.4.jar
+SHA-256-Digest: LacaOflOrmdTw5Ge7LoTQGRXFtkQDtBEIA0u5J7IJkc=
+
+Name: plugin.xml
+SHA-256-Digest: tWLPTLLw9wxGEv5wz7GccOh81osYdA3DQjnUF87tcfI=
+
+Name: org/mule/tooling/ui/contribution/FiltersActivator.class
+SHA-256-Digest: 0v5wWAvBu7crT8+f1xriYVGp62VhFVOzYoZ41PgqH6I=
+
+Name: mule-module-security-filters-1.8.4.zip
+SHA-256-Digest: F5iV2BwDrTkqzifhyEAdExhHkTt58r0m6KBJd2Blfgc=
+

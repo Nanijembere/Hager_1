@@ -1,0 +1,17 @@
+---
+transports:
+  websocket.transport:
+    enabled: false
+  rest.agent.transport:
+    enabled: true
+    port: 51596
+    host: 127.0.0.1
+services:
+  mule.agent.jmx.publisher.service:
+    enabled: true
+    frequency: 15
+    frequencyTimeUnit: MINUTES
+  mule.agent.studio.service:
+    studioCheckerEnabled: true
+    studioLockFileName: studio-d7e339d9-7dff-463f-923d-ce1c7b5c3670
+    muleLockFileName: mule-e093f8f5-0166-4cfd-81b4-f65e6a9b978c

@@ -1,0 +1,9 @@
+{
+  "muleRuntimeConfig" : {
+    "maven" : {
+      "userSettingsLocation" : "C:\\Users\\seyfe\\AppData\\Local\\Temp\\settings-temp-directory\\75daf30a-801a-487c-ad35-2c461ca4adb3.xml",
+      "repositoryLocation": "C:\\Users\\seyfe\\.m2\\repository",
+      "ignoreArtifactDescriptorRepositories": "false"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: CRC32
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041855
+Bundle-Activator: org.mule.tooling.ui.contribution.Crc32Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.crc32.3.9.0;sing
+ leton:=true
+Archiver-Version: Plexus Archiver
+
+Name: icons/small/crc32-connector-24x16.png
+SHA-256-Digest: aXaASj1V8KQCSS47bsGBW05UEywUnifQyT66u+5z8tU=
+
+Name: mule-module-security-crc32-1.8.4.jar
+SHA-256-Digest: QlrB/LXj6oWF6qD6yR5fS6u+LXYpAvfpLI0U7tlCS2k=
+
+Name: editors.xml
+SHA-256-Digest: FOCUBHXdgVUNn4pEAjFm8vJdsoaRMDOf0CwI5Ol+Sdw=
+
+Name: mule-module-security-crc32-1.8.4.zip
+SHA-256-Digest: drybOxkyYNyx2ajx8uvRnUXjs+ObG4BOyo87J8dwa0w=
+
+Name: icons/large/crc32-connector-48x32.png
+SHA-256-Digest: 83aYLTfdmI9N1l7HAAgBMr/ZVGfT18WBAHJjmQk1/s8=
+
+Name: plugin.xml
+SHA-256-Digest: HeFxz4RwmBfefe/99w0vCIjnTIIE4yxiNanDA1UR5Bg=
+
+Name: org/mule/tooling/ui/contribution/Crc32Activator.class
+SHA-256-Digest: IV2heS9OvWJWbX4l6ojKhgtp+1sL3WTAh4frt2SbAA0=
+

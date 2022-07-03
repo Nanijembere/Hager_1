@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: Signature
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041855
+Bundle-Activator: org.mule.tooling.ui.contribution.SignatureActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.signature.3.9.0;
+ singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: editors.xml
+SHA-256-Digest: 81u6MhWPBM4wx10y1UpNmPkpTZL9iAIE6+MXiOE6e5o=
+
+Name: plugin.xml
+SHA-256-Digest: G8xySSraq3qjD4DgjFZ/Dr+kLWgV+WGymmADQfib4UU=
+
+Name: org/mule/tooling/ui/contribution/SignatureActivator.class
+SHA-256-Digest: b+xy/tNKRT5NbO8Wnmcbt9d1OfBoiRCofbG7P0HeX0E=
+
+Name: mule-module-security-signature-1.8.4.zip
+SHA-256-Digest: 8qVDgfElJq0ZF8onvT0mkKsEHS5xXVnnsADrTvQBRU8=
+
+Name: icons/large/signature-connector-48x32.png
+SHA-256-Digest: 9rIu2PLTJ9yJUDxAx8elO1F8dHFmf36Od8IbJprYdhE=
+
+Name: icons/small/signature-connector-24x16.png
+SHA-256-Digest: MVHdxJAT5ml928uERfLf/nlGcX95vqTY2ftmWgn2R6g=
+
+Name: mule-module-security-signature-1.8.4.jar
+SHA-256-Digest: y90dYNRcmU9YvNBoHUoBqwLa4prJOuFWlRqgoXhXRms=
+

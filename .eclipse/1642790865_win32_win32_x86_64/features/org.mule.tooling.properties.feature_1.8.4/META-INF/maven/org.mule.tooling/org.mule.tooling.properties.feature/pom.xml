@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>mule-properties-ui-eclipse</artifactId>
+        <groupId>org.mule.tooling</groupId>
+        <version>1.8.4</version>
+    </parent>
+
+	<groupId>org.mule.tooling</groupId>
+	<artifactId>org.mule.tooling.properties.feature</artifactId>
+	<packaging>eclipse-feature</packaging>
+
+    <properties>
+        <keystorePath>../../mulesoft.ks</keystorePath>
+    </properties>
+
+</project>

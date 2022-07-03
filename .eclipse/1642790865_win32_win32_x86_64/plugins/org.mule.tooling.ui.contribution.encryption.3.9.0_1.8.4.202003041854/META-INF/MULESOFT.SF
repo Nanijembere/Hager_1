@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: TbONg2gZbT8v0vGoWdXPgGG3RTuhk
+ P9fUpOutFLbyOA=
+SHA-256-Digest-Manifest: EvOKPnNFz3I2ocClZCHbLVyAtY3fckH3wmOzsMqqsrg=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: org/mule/tooling/ui/contribution/EncryptionActivator.class
+SHA-256-Digest: fQfTGGsP1Tf5KpimJFcj7vH33mJKYkEE8suyqPY8Xg8=
+
+Name: icons/large/encryption-connector-48x32.png
+SHA-256-Digest: GmY7taZjvkThmTWkVIVnSa9f4/Z5oTMnj3qRlLv5/jM=
+
+Name: editors.xml
+SHA-256-Digest: F0gjH51sdUUG406ys7KM1PxjdBjdmU9I5C8kZpjXRGw=
+
+Name: mule-module-security-encryption-1.8.4.jar
+SHA-256-Digest: nhpzBeD44TkVSllrdcBMaF/2TvXQae5aIk0xNSTUyh0=
+
+Name: mule-module-security-encryption-1.8.4.zip
+SHA-256-Digest: vGLLU1f1Re3pZdyuZgCg1MCzAlu73Cui+s8opUxUiWk=
+
+Name: plugin.xml
+SHA-256-Digest: pPbQUteLRhDLuVLl4eAj7FY50voApJ7/KrNiunrRZac=
+
+Name: icons/small/encryption-connector-24x16.png
+SHA-256-Digest: VNGsdZ5VhBL9YTJNMcwhuCiJPJVN+YOFhK3O0lxIzcg=
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<namespace xmlns="http://www.mulesoft.org/schema/mule/tooling.attributes" xmlns:mule="http://www.mulesoft.org/schema/mule/core" url="http://www.mulesoft.org/schema/mule/filters" prefix="filters">
+  <global-cloud-connector versions="[3.9.0,8.0.0]" caption="Filters" description="" icon="" localId="parentConfig" image="" abstract="true" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric"></global-cloud-connector>
+  <global-cloud-connector versions="[3.9.0,8.0.0]" caption="Filters" description="Global Filters configuration information." icon="icons/small/filters-connector-24x16.png" localId="config" image="icons/large/filters-connector-48x32.png" abstract="false" extends="http://www.mulesoft.org/schema/mule/filters/parentConfig" connectivityTesting="off">
+    <attribute-category caption="General" description="Filters configuration properties.">
+      <group id="filtersGenericProperties" caption="Basic Settings">
+        <name name="name" caption="Name" description="Give a name to this configuration so it can be later referenced by config-ref." required="true"></name>
+      </group>
+    </attribute-category>
+  </global-cloud-connector>
+  <cloud-connector caption="Abstractfiltersconnectorgeneric" description="Interact with Filters." icon="icons/small/filters-connector-24x16.png" localId="abstractFiltersConnectorGeneric" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true">
+    <attribute-category caption="General" description="General.">
+      <group id="abstractFiltersConnectorGeneric" caption="Basic Settings">
+        <globalRef requiredType="http://www.mulesoft.org/schema/mule/filters/config" name="config-ref" caption="Connector Configuration" description="Specify which configuration to use for this invocation." required="true"></globalRef>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector versions="[3.9.0,8.0.0]" aliasId="org.mule.tooling.ui.modules.core.pattern.filters" caption="Filters" description="Module for Security Filters." icon="icons/small/filters-connector-24x16.png" localId="filters-connector" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="filtersConnectorGeneric" caption="Basic Settings">
+        <modeSwitch alwaysCombo="true" name="Filters operations to execute" caption="Operation" description="Operation.">
+          <no-operation abstractElement="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric" versions="[3.9.0,8.0.0]" connector-name="processor"></no-operation>
+          <mode modeId="http://www.mulesoft.org/schema/mule/filters/filter-by-ip" modeLabel="Filter by ip"></mode>
+          <mode modeId="http://www.mulesoft.org/schema/mule/filters/filter-by-ip-range" modeLabel="Filter by ip range"></mode>
+          <mode modeId="http://www.mulesoft.org/schema/mule/filters/filter-by-ip-range-cidr" modeLabel="Filter by ip range cidr"></mode>
+          <mode modeId="http://www.mulesoft.org/schema/mule/filters/filter-expired" modeLabel="Filter expired"></mode>
+        </modeSwitch>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="org.mule.api.MuleEvent" caption="Filter By Ip" icon="icons/small/filters-connector-24x16.png" localId="filter-by-ip" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string name="regex" caption="Regex" description="The valid IPs, it expects a regular expression." required="true" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="org.mule.api.MuleEvent" caption="Filter By Ip Range" icon="icons/small/filters-connector-24x16.png" localId="filter-by-ip-range" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string name="mask" caption="Mask" description="The mask of the net." required="true" javaType="java.lang.String"></string>
+        <string name="net" caption="Net" description="The valid net address." required="true" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="org.mule.api.MuleEvent" caption="Filter By Ip Range Cidr" icon="icons/small/filters-connector-24x16.png" localId="filter-by-ip-range-cidr" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string name="cidr" caption="Cidr" description="The valid IP address range expressed in CIDR notation." required="true" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="org.mule.api.MuleEvent" caption="Filter Expired" icon="icons/small/filters-connector-24x16.png" localId="filter-expired" image="icons/large/filters-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/filters/abstractFiltersConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string name="dateTime" caption="Date Time" description="The dateTime of the message, the date must respect the ISO 8601 format 'yyyy-MM-dd'T'hh:mm:ssZ'. Expressions can be used to provide a Date instance as well." required="true" javaType="java.util.Date"></string>
+        <integer defaultValue="30000" min="0" step="1" name="expiresIn" caption="Expires In" description="The maximum amount of milliseconds until a message is considered to be expired. Defaults to 30 seconds." required="false" javaType="int"></integer>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+</namespace>

@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: 0pk3o+oRexo+Wg1aDVRqV1M2CsVAX
+ HzaMfrUCEO9164=
+SHA-256-Digest-Manifest: OunwUcjxujrTkqk4A0gIKHK6BZc/piVgDmRkUPYyDRU=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: mule-module-security-property-placeholder-1.8.4.jar
+SHA-256-Digest: iQfwzc7A9pb54s7eX4Cg6PjTYBk/QJXj+QMYO5cLViU=
+
+Name: editors.xml
+SHA-256-Digest: bxnE1xfvtMYGkPBuPovgfgkEijLiYmLiKVe77322Xxc=
+
+Name: icons/small/secure-property-placeholder-connector-24x16.png
+SHA-256-Digest: wGMNUVCObRRf4a9NukiACGzUfp2N/naGqGYTdsRjtnI=
+
+Name: icons/large/secure-property-placeholder-connector-48x32.png
+SHA-256-Digest: qX/OhxIWY9yMkyMC3sW5o40aX4lHF2GxN29Xv11kskg=
+
+Name: plugin.xml
+SHA-256-Digest: aEU10mspF3lUIVUEgabebm7xU4LYHMiVKBFdyQZYfhY=
+
+Name: mule-module-security-property-placeholder-1.8.4.zip
+SHA-256-Digest: XZjbhirysOXU2MdZmTMS3yu7vz3bxXjS8fTkJwwtD+g=
+
+Name: org/mule/tooling/ui/contribution/SecurePropertyPlaceholderActiva
+ tor.class
+SHA-256-Digest: v1Pc3KczPYjSCTklG2pfw/js1qlD2hbVS9YIKGX2mzE=
+

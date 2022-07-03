@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1653781959158'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='14'>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.signature.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='262260'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.propeditor' version='1.8.4'>
+      <properties size='1'>
+        <property name='download.size' value='4591892'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-oauth2-provider.3.9.0' version='1.8.4.202003041856'>
+      <properties size='1'>
+        <property name='download.size' value='4240'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-signature.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='4230'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-encryption.3.9.0' version='1.8.4.202003041854'>
+      <properties size='1'>
+        <property name='download.size' value='4235'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.filters.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='102026'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-filters.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='4233'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.crc32.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='87042'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.encryption.3.9.0' version='1.8.4.202003041854'>
+      <properties size='1'>
+        <property name='download.size' value='249136'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-crc32.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='4234'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.properties.feature' version='1.8.4'>
+      <properties size='1'>
+        <property name='download.size' value='8987'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.security-property-placeholder.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='4251'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.secure-property-placeholder.3.9.0' version='1.8.4.202003041855'>
+      <properties size='1'>
+        <property name='download.size' value='153152'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.oauth2-provider.3.9.0' version='1.8.4.202003041856'>
+      <properties size='1'>
+        <property name='download.size' value='646825'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: XmLUwBNN5PldvVuzSHe3xhoUslm3g
+ EUnfBtUeb70lUk=
+SHA-256-Digest-Manifest: 2hXxIPC5GcP5UdeOmLn3+kXJGQV7sT3KeGE/HbkNvkA=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: org/mule/tooling/ui/contribution/Oauth2ProviderActivator.class
+SHA-256-Digest: Dd6/OJUa5DwdDGj1IuZ4i5GQEtrsV4jI8QLOInaKTdk=
+
+Name: editors.xml
+SHA-256-Digest: DEQZdn9ZU35qOgEIT/UHXQ0OenxAT+ngWKf/P8yThYk=
+
+Name: mule-module-security-oauth2-provider-1.8.4.jar
+SHA-256-Digest: qlmRvNGusNsOwakBAkRFuLkzgDwpuATJFrvSPZEd+EU=
+
+Name: mule-module-security-oauth2-provider-1.8.4.zip
+SHA-256-Digest: pB+3rFu0RVWd6Jx826QXpiI9IufRuLXpyFCwESQK9fQ=
+
+Name: plugin.xml
+SHA-256-Digest: QwMEwAii83dbfTfH7RAPlD/aBTuyNVSfRjPD+XvcNT8=
+
+Name: icons/small/oauth2-provider-connector-24x16.png
+SHA-256-Digest: 6McVBf1e7/F7dm1IVrx8sKCymYpVnnmn3UbAMKtVIis=
+
+Name: icons/large/oauth2-provider-connector-48x32.png
+SHA-256-Digest: e05Ekiy7ckbTZotkKbbNNTZOeLn6jLxDKAbhna3xTuw=
+

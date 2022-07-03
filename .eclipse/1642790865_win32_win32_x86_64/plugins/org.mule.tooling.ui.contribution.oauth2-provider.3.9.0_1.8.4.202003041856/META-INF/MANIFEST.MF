@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Name: OAuth provider module
+Created-By: 24.80-b11 (Oracle Corporation)
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.mule.tooli
+ ng.core;bundle-version="1.0.0"
+Bundle-Vendor: MuleSoft, Inc.
+Bundle-Version: 1.8.4.202003041856
+Bundle-Activator: org.mule.tooling.ui.contribution.Oauth2ProviderActiv
+ ator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mule.tooling.ui.contribution.oauth2-provider.
+ 3.9.0;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: editors.xml
+SHA-256-Digest: no2TXzvX3IDT0DqCXHcASXQO8U9dprNbLho6MdudaXI=
+
+Name: org/mule/tooling/ui/contribution/Oauth2ProviderActivator.class
+SHA-256-Digest: UkaiubWrBjDCP9EQexcZR5EogfD+5mc7lFCDANJkR6E=
+
+Name: mule-module-security-oauth2-provider-1.8.4.jar
+SHA-256-Digest: 25gYqOGLyziEm4Bv+Bh2Ok04Ktfr38dM5qs+hS1ST9o=
+
+Name: mule-module-security-oauth2-provider-1.8.4.zip
+SHA-256-Digest: iuGzf4+oBag1cKNP/K/E0/kmAvZJP8MiE9jQEP2twJs=
+
+Name: plugin.xml
+SHA-256-Digest: wo3m37jsmAkrnsdQucFFF+EYKtA37ulC5K+6xPWXFH0=
+
+Name: icons/large/oauth2-provider-connector-48x32.png
+SHA-256-Digest: a4ouWu5OK8RE2Q01Q2ovMeRmuDCYEQ+EIBslU4hRTh0=
+
+Name: icons/small/oauth2-provider-connector-24x16.png
+SHA-256-Digest: m7h0R42QJuw5OV81TunZCQlbvovtVp5uqUHs0gaIHR4=
+

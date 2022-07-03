@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: 4AsoOQKOKCn5ukzPgfiTU2+QwXgCe
+ DwBZ+ZPc0h3k5c=
+SHA-256-Digest-Manifest: wWlwPaZ3IlX20ZTNoIs0YZYykn17/Oa1rvBmCpXABFA=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: icons/small/crc32-connector-24x16.png
+SHA-256-Digest: nj4IHJDvfYHCzsMOZu6gF9pXcK+1pJ2L+K451b03fN0=
+
+Name: mule-module-security-crc32-1.8.4.jar
+SHA-256-Digest: tusaJZZP4P76FKbhPp1RzFOQ0Mk6EMJjCmQUTu+yspY=
+
+Name: editors.xml
+SHA-256-Digest: gHWCfA/8Z+3AQ38Sz1KhsYuboAL89f/duh/kDJFVt6o=
+
+Name: mule-module-security-crc32-1.8.4.zip
+SHA-256-Digest: oKAMQj2Q4ARp8D4Okqilv/aKo9TFbPcWOCVq9CMqmYg=
+
+Name: icons/large/crc32-connector-48x32.png
+SHA-256-Digest: R8a+ylz6yd3Ti39s3Sg+ne9at9c45c3K2CoRv40CLZM=
+
+Name: plugin.xml
+SHA-256-Digest: D16jyFgKxoMWT2YrPFFeHIb3eClw7TkcKC6rq6rEyP4=
+
+Name: org/mule/tooling/ui/contribution/Crc32Activator.class
+SHA-256-Digest: W4MLynfPXZxdRdyFKjbtOy9Wa6lfA818Fzn55V87tu4=
+

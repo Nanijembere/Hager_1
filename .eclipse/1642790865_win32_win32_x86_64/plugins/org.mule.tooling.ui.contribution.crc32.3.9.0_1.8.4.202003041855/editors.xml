@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<namespace xmlns="http://www.mulesoft.org/schema/mule/tooling.attributes" xmlns:mule="http://www.mulesoft.org/schema/mule/core" url="http://www.mulesoft.org/schema/mule/crc32" prefix="crc32">
+  <global-cloud-connector versions="[3.9.0,8.0.0]" caption="CRC32" description="" icon="" localId="parentConfig" image="" abstract="true" extends="http://www.mulesoft.org/schema/mule/crc32/abstractCrc32ConnectorGeneric"></global-cloud-connector>
+  <global-cloud-connector versions="[3.9.0,8.0.0]" caption="CRC32" description="Global CRC32 configuration information." icon="icons/small/crc32-connector-24x16.png" localId="config" image="icons/large/crc32-connector-48x32.png" abstract="false" extends="http://www.mulesoft.org/schema/mule/crc32/parentConfig" connectivityTesting="off">
+    <attribute-category caption="General" description="Crc32 configuration properties.">
+      <group id="crc32GenericProperties" caption="Basic Settings">
+        <name name="name" caption="Name" description="Give a name to this configuration so it can be later referenced by config-ref." required="true"></name>
+      </group>
+      <group id="general" caption="General">
+        <string defaultValue="#[variable:crc32]" name="targetExpression" caption="Target Expression" description="The expression where to store the result of the calculated CRC32
+produced by." required="false" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </global-cloud-connector>
+  <cloud-connector caption="Abstractcrc32connectorgeneric" description="Interact with Crc32." icon="icons/small/crc32-connector-24x16.png" localId="abstractCrc32ConnectorGeneric" image="icons/large/crc32-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true">
+    <attribute-category caption="General" description="General.">
+      <group id="abstractCrc32ConnectorGeneric" caption="Basic Settings">
+        <globalRef requiredType="http://www.mulesoft.org/schema/mule/crc32/config" name="config-ref" caption="Connector Configuration" description="Specify which configuration to use for this invocation." required="true"></globalRef>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector versions="[3.9.0,8.0.0]" aliasId="org.mule.tooling.ui.modules.core.pattern.crc32" caption="CRC32" description="Applies a cyclical redundancy check to messages to ensure integrity.
+." icon="icons/small/crc32-connector-24x16.png" localId="crc32-connector" image="icons/large/crc32-connector-48x32.png" category="org.mule.tooling.category.security" extends="http://www.mulesoft.org/schema/mule/crc32/abstractCrc32ConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="crc32ConnectorGeneric" caption="Basic Settings">
+        <modeSwitch alwaysCombo="true" name="Crc32 operations to execute" caption="Operation" description="Operation.">
+          <no-operation abstractElement="http://www.mulesoft.org/schema/mule/crc32/abstractCrc32ConnectorGeneric" versions="[3.9.0,8.0.0]" connector-name="processor"></no-operation>
+          <mode modeId="http://www.mulesoft.org/schema/mule/crc32/calculate" modeLabel="Calculate"></mode>
+          <mode modeId="http://www.mulesoft.org/schema/mule/crc32/filter" modeLabel="CRC32 Filter"></mode>
+        </modeSwitch>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="void" caption="Calculate" icon="icons/small/crc32-connector-24x16.png" localId="calculate" image="icons/large/crc32-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/crc32/abstractCrc32ConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string defaultValue="#[payload]" name="input-ref" caption="Input Reference" description="The object on which to calculate the checksum." required="false" javaType="java.lang.Object"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="org.mule.api.MuleEvent" caption="Crc32 Filter" icon="icons/small/crc32-connector-24x16.png" localId="filter" image="icons/large/crc32-connector-48x32.png" category="org.mule.tooling.category.security" abstract="true" extends="http://www.mulesoft.org/schema/mule/crc32/abstractCrc32ConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <integer min="0" step="1" name="expectedChecksum" caption="Expected Checksum" description="The expected checksum value for the given input." required="true" javaType="long"></integer>
+        <string defaultValue="#[payload]" name="input-ref" caption="Input Reference" description="Input to be validated." required="false" javaType="java.lang.Object"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+</namespace>

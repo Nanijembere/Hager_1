@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: 2US/J2onncoQo34EGsqy7dRcSdwy3
+ 44w6sy8w+YN/l4=
+SHA-256-Digest-Manifest: eqAhUpkQAArWsSsE57F7ml0CqHPuKyLpiUutGP0ZlNE=
+Created-By: 1.7.0_80 (Oracle Corporation)
+
+Name: icons/small/filters-connector-24x16.png
+SHA-256-Digest: 4Ewn/l9HJf9azYAaLMcgvbOLzM1SVXMpj25MLnj+9fU=
+
+Name: editors.xml
+SHA-256-Digest: 0DkerTV2PtzvMQ4ttIdLRJnivELQVV5QlZmYaocd2oQ=
+
+Name: icons/large/filters-connector-48x32.png
+SHA-256-Digest: YK1vN5ZYcyZS/Njsr2h0ZN9vH06fBVxxVR1g+gmCJ6U=
+
+Name: mule-module-security-filters-1.8.4.jar
+SHA-256-Digest: 6Ln9EZ5OZ2/5oZniuDVdZ2Lgsf+wq54EB4Vfaz1k96U=
+
+Name: plugin.xml
+SHA-256-Digest: G877l+gHNXznpmZTkyUrhcPmMGewbzXceP0ImL8h9EM=
+
+Name: org/mule/tooling/ui/contribution/FiltersActivator.class
+SHA-256-Digest: qATv5kmsjK1sEIb5RHoxfUO+F5P/vVRWUAh1Mayl2QU=
+
+Name: mule-module-security-filters-1.8.4.zip
+SHA-256-Digest: JWgxBwHdJRxWbfm+SEpoNOzcFvEF3Qugx7ZEenPoDfc=
+
